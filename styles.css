@@ -33,6 +33,12 @@ body {
 
 }
 
+.second-container {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .big-title-container {
     width: 465px;
     display: block;
@@ -40,6 +46,7 @@ body {
 }
 
 .big-title {
+    padding-top: 27px;
     font-size: 60px;
 }
 
@@ -57,4 +64,10 @@ body {
     height: 50px;
     border: none;
     border-radius: 15px;
+}
+
+.img-container {
+    background-color: #373636;
+    border-radius: 30px;
+    margin-left: 115px;
 }

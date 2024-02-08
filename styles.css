@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .header-container {
@@ -40,7 +39,6 @@ body {
     margin-right: 50px;
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
 .second-container {
@@ -63,7 +61,6 @@ body {
 .description {
     width: 461px;
     padding-top: 40px;
-
 }
 
 .get-started {
@@ -80,4 +77,19 @@ body {
     background-color: #373636;
     border-radius: 30px;
     margin-left: 115px;
+}
+
+.logos {
+    margin-top: 77px;
+    width: 1080px;
+    height: 170px;
+    border-style: solid 2px;
+    border-top: solid 1px #FFFFFF;
+    border-bottom: solid 1px #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    /* padding-top: 67px; */
 }

@@ -73,7 +73,7 @@ body {
     border-radius: 15px;
 }
 
-.img-container {
+.img1-container {
     background-color: #373636;
     border-radius: 30px;
     margin-left: 115px;
@@ -92,4 +92,14 @@ body {
 
 .image {
     /* padding-top: 67px; */
+}
+
+.img2-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
 }

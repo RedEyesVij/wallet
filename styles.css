@@ -103,3 +103,31 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.pay-container {
+    padding-top: 50px;
+    width: 1033px;
+    display: flex;
+    column-gap: 50px;
+    padding-bottom: 50px;
+}
+
+.icon-container {
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pay-title {
+    font-weight: bold;
+    padding-top: 32px;
+}
+
+.pay-description {
+    padding-top: 10px;
+    width: 255px;
+    color: #7f7f7f;
+    text-align: center;
+}

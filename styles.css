@@ -131,3 +131,42 @@ body {
     color: #7f7f7f;
     text-align: center;
 }
+
+.feedback {
+    width: 1080px;
+    border-radius: 20px;
+    background-color: #BFAFF2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 83px;
+}
+
+.feedback-text {
+    width: 756px;
+    color: #2B2B2B;
+    font-size: 24px;
+    font-weight: semibold;
+    padding-left: 162px;
+}
+
+.castomer-box {
+    padding-top: 50px;
+    padding-left: 162px;
+    padding-bottom: 84px;
+    display: flex;
+}
+
+.avatar {
+    border: solid #BCBCBC;
+}
+
+.name {
+    padding-top: 13px;
+    padding-left: 20px;
+    color: #2B2B2B;
+}
+
+.star {
+    padding-left: 20px;
+    padding-top: 5px;
+}

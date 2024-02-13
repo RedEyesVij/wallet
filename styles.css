@@ -3,6 +3,7 @@ body {
     background-color: #2B2B2B;
     color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 .main-container {
@@ -67,13 +68,14 @@ body {
 
 .get-started {
     margin-top: 72px;
-    background-color: yellow;
+    background-color: #F8D57E;
     color: #333333;
     width: 175px;
     height: 50px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .img1-container {
@@ -90,6 +92,10 @@ body {
     border-bottom: solid 1px #FFFFFF;
     display: flex;
     justify-content: center;
+}
+
+.image-mobile {
+    /* display: none; */
 }
 
 .img2-container {
@@ -183,7 +189,6 @@ body {
 }
 
 .title-footer {
-    padding-top: ;
     font-size: 24px;
     font-weight: 600;
 }
@@ -231,4 +236,93 @@ body {
     margin-top: 110px;
     margin-bottom: 50px;
     cursor: pointer;
+}
+
+@media (max-width: 640px) {
+
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 33px;
+    }
+
+    .sign-un {
+        display: none;
+    }
+
+    .main-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second-container {
+        padding-top: 0px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .big-title-container {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .big-title {
+        padding-top: 0%;
+        font-size: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 335px;
+    }
+
+    .description {
+        width: 100%;
+        padding-top: 30px;
+
+    }
+
+    .get-started {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img1-container {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .logos {
+        margin-top: 70px;
+        width: 100%;
+        height: 180px;
+
+    }
+
+    .image-descktop {
+        display: none;
+    }
+
+    .image-mobile {
+        width: 100%;
+    }
 }

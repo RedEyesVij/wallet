@@ -333,6 +333,10 @@ body {
         padding-top: 100px;
     }
 
+    .image-pay {
+        width: auto;
+    }
+
     .feedback {
         margin-left: auto;
         margin-right: auto;

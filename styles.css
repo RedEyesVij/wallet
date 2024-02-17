@@ -95,7 +95,7 @@ body {
 }
 
 .image-mobile {
-    /* display: none; */
+    display: none;
 }
 
 .img2-container {
@@ -110,7 +110,6 @@ body {
 
 .pay-container {
     padding-top: 50px;
-    width: 1033px;
     display: flex;
     column-gap: 50px;
     padding-bottom: 50px;
@@ -325,4 +324,55 @@ body {
     .image-mobile {
         width: 100%;
     }
+
+    .pay-container {
+        flex-direction: column;
+        row-gap: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+    }
+
+    .feedback {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 80px 30px 80px 30px;
+        width: auto;
+    }
+
+    .feedback-text {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .castomer-box {
+        margin-top: 80px;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .name-star-box {
+        padding-left: 20px;
+        padding-top: 13px;
+    }
+
+    .name {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .star {
+        margin-top: 5px;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .footer {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
 }

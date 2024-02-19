@@ -174,9 +174,15 @@ body {
     width: 100%;
     margin-top: 100px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border-top: solid 1px #FFFFFF;
     position: relative;
+}
+
+.revers-box {
+    display: flex;
+    flex-direction: row;
 }
 
 .l-footerbox {

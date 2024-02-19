@@ -173,6 +173,8 @@ body {
 .footer {
     width: 100%;
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -181,12 +183,16 @@ body {
 }
 
 .revers-box {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .l-footerbox {
-    padding-top: 50px;
+    padding-top: 128px;
     padding-bottom: 50px;
 }
 
@@ -210,6 +216,7 @@ body {
 
 .r-footerbox {
     display: flex;
+    padding-top: 40px;
     padding-left: 80px;
 }
 
